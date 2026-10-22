@@ -3,10 +3,10 @@ name: ros_package_build
 on:
 
   push:
-    branches: [ master ]
+    branches: [ ros1 ]
 
   pull_request:
-    branches: [ master ]
+    branches: [ ros1 ]
 
   workflow_dispatch:
 
